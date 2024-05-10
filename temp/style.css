@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./assets/imagem/2276716-fundo-geometrico-abstrato-em-plano-design-vetor.jpg);
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 175px;
+    margin-top: 25px;
+}
+
+.title{
+    width: 300px;
+    margin-top: 58px;
+    margin-bottom: 75px;
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    margin-top: -15px;
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 333px;
+    height: 400px;
+    margin-top: 100px;
+    background-color: rgba(22, 208, 255, 0.493);
+    border-radius: 20px;
+}
+
+.inputs-temp{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+input{
+    height: 35px;
+    width: 185px;
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -25px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    
+}
+
+input[type=number]{
+    appearance:textfield;
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.left{
+    width: 410px;
+    height: 400px;
+    margin-top: 100px;
+    background-color: rgba(0, 255, 255, 0.521);
+    border-radius: 20px;
+}
+
+.container-info{
+    margin-bottom: 24px;
+}
+
+.info{
+    width: 400px;
+    margin-top: -50px;
+    padding-left: 15px;
+}
+
+.info span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}

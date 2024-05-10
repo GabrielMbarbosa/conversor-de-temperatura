@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="left">
+            <div class="container-info">
+                <div class="title">
+                    <h3>Conversor de Temperatura</h3>
+                </div>
+                <div class="info">
+                    <span>
+                        Este é um programa de conversão de temperaturas Celsius, Fahrenheit e Kelvin. se você quer converter Fahrenheit para Celsius, preencha primeiro o espaço de temperatura Fahrenheit. O programa calculará automaticamente as outras temperaturas correspondentes. Para converter Celsius ou Kelvin, basta apagar os valores e preencher a temperatura desejada.
+                    </span>
+                </div>
+            </div>    
+        </section>
+        <section class="right">
+            <div class="container-temp">
+                <div class="inputs-temp">
+                    <label for="celsius">Celsius:</label>
+                    <input type="number" id="celsius" name="celsius" oninput="converterTemp(this.value, 'celsius')">
+                    <label for="fahrenheits">Fahrenheits:</label>
+                    <input type="number" id="fahrenheits" name="fahrenheits" oninput="converterTemp(this.value, 'fahrenheits')">
+                    <label for="kelvin">Kelvin:</label>
+                    <input type="number" id="kelvin" name="kelvin" oninput="converterTemp(this.value, 'kelvin')">
+                </div>
+            </div>
+        </section>    
+    </main>
+</body>
+    <script src="script.js"></script>
+</html>
