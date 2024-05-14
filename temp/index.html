@@ -8,9 +8,9 @@
 </head>
 <body>
     <main>
-        <section class="left">
+        <section class="left-side">
             <div class="container-info">
-                <div class="title">
+                <div class="title-info">
                     <h3>Conversor de Temperatura</h3>
                 </div>
                 <div class="info">
@@ -20,15 +20,15 @@
                 </div>
             </div>    
         </section>
-        <section class="right">
+        <section class="right-side">
             <div class="container-temp">
                 <div class="inputs-temp">
                     <label for="celsius">Celsius:</label>
-                    <input type="number" id="celsius" name="celsius" oninput="converterTemp(this.value, 'celsius')">
+                    <input type="number" id="celsius" name="celsius" placeholder="Digite aqui" oninput="converterTemp(this.value, 'celsius')">
                     <label for="fahrenheits">Fahrenheits:</label>
-                    <input type="number" id="fahrenheits" name="fahrenheits" oninput="converterTemp(this.value, 'fahrenheits')">
+                    <input type="number" id="fahrenheits" name="fahrenheits" placeholder="Digite aqui" oninput="converterTemp(this.value, 'fahrenheits')">
                     <label for="kelvin">Kelvin:</label>
-                    <input type="number" id="kelvin" name="kelvin" oninput="converterTemp(this.value, 'kelvin')">
+                    <input type="number" id="kelvin" name="kelvin" placeholder="Digite aqui" oninput="converterTemp(this.value, 'kelvin')">
                 </div>
             </div>
         </section>    
