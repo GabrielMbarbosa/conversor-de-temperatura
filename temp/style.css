@@ -24,7 +24,21 @@ main{
     margin-top: 25px;
 }
 
-.title{
+/* inicio lado-esquerdo */
+
+.left-side{
+    width: 410px;
+    height: 400px;
+    margin-top: 100px;
+    background-color: rgba(0, 255, 255, 0.521);
+    border-radius: 20px;
+}
+
+.container-info{
+    margin-bottom: 24px;
+}
+
+.title-info{
     width: 300px;
     margin-top: 58px;
     margin-bottom: 75px;
@@ -35,6 +49,21 @@ main{
 h3{
     margin-top: -15px;
 }
+
+.info{
+    width: 400px;
+    margin-top: -50px;
+    padding-left: 15px;
+}
+
+.info span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
+/* fim lado-esquerdo */
+
+/* inicio lado-direito */
 
 .container-temp{
     display: flex;
@@ -75,27 +104,4 @@ label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-
-.left{
-    width: 410px;
-    height: 400px;
-    margin-top: 100px;
-    background-color: rgba(0, 255, 255, 0.521);
-    border-radius: 20px;
-}
-
-.container-info{
-    margin-bottom: 24px;
-}
-
-.info{
-    width: 400px;
-    margin-top: -50px;
-    padding-left: 15px;
-}
-
-.info span{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    
-}
+/* fim lado-direito */
